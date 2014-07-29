@@ -1,0 +1,5 @@
+# Everything that is a checkpoint
+*.ipynb_checkpoints
+*.swp
+.DS_Store
+*.nc
