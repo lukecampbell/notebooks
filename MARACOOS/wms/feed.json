@@ -1,0 +1,52 @@
+{
+  "wms_services": [
+    {
+      "name": "ROMS currents: South Atlantic Bight and Gulf of Mexico",
+      "params": {
+        "colorscalerange": "3,31",
+        "format": "image/png",
+        "layers": "SAB_GOM_CURRENTS",
+        "styles": "CURRENTS_RAMP-Jet-False-2-True-0-2-High",
+        "time": "2015-04-29T21:00",
+        "transparent": true
+      },
+      "type": "WMS",
+      "url": "http://coastmap.com/ecop/wms.aspx"
+    },
+    {
+      "name": "HYCOM Currents",
+      "params": {
+        "colorscalerange": "3,31",
+        "format": "image/png",
+        "layers": "HYCOM_CURRENTS",
+        "styles": "CURRENTS_RAMP-Jet-False-3-True-0-2-high",
+        "time": "2015-04-29T21:00",
+        "transparent": true
+      },
+      "type": "WMS",
+      "url": "http://coastmap.com/ecop/wms.aspx"
+    },
+    {
+      "name": "Wave Watch 3 Wave Height",
+      "params": {
+        "format": "image/png",
+        "gfi_time": "min/max",
+        "layers": "WW3_WAVE_HEIGHT",
+        "styles": "WAVE_HEIGHT_STYLE-0-3",
+        "transparent": true
+      },
+      "type": "WMS",
+      "url": "http://coastmap.com/ecop/wms.aspx"
+    },
+    {
+      "name": "Test",
+      "params": {
+        "format": "image/png",
+        "layers": "msl-pressure",
+        "transparent": true
+      },
+      "type": "WMS",
+      "url": "https://ogcie.iblsoft.com/ncep/gfs"
+    }
+  ]
+}
